@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Ferry";
+  src: url(./fonts/ferry_black.otf);
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url(./fonts/Inter-Medium.otf);
+}
+@font-face {
+  font-family: "Inter-Normal";
+  src: url(./fonts/Inter-Regular.otf);
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  width:1440px;
+  height: 100%;
+  background: #FFFFFF;
+  color: #000000;
+  letter-spacing: 0.01em;
+  margin:0 auto;
+  font-family: "Inter-Normal";
+  text-align:left;
+}
+
+/* body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #029491;
+  border-radius: 5px;
+  height:52px;
+} */
+
+h1 {
+  font-family: 'Ferry';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+}
+h2,
+span {
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+h3 {
+  font-family: 'Ferry';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+}
+span {
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration-line: line-through;
+  opacity: 0.5;
+}
+p {
+  font-size: 20px;
+  line-height: 24px;
+}
+li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom:5px;
+  padding-left:25px; 
+}
+form {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+label {
+  display:block;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #949494;
+  margin:15px 0;
+}
+input,
+select {
+  width: 379px;
+  height: 43px;
+  left: 895px;
+  top: 290px;
+  background: #FFFFFF;
+  border: 1px solid #C7C7C7;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+button {
+  width: 355px;
+  background: #5970FF;
+  border-radius: 5px;
+  padding:16px 0;
+  border:none;
+  color: #FFFFFF;
+  cursor:pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+@media screen and (max-width: 375px) {
+  body {
+    width:375px;
+  }
+}

@@ -1,0 +1,35 @@
+ /* .slick-next:before, 
+.slick-prev:before {
+    color: #5970FF;
+    font-size:30px;
+} */
+.slick-dots li button:before {
+    color:#029491;
+    font-size:15px;
+}
+.slick-dots li.slick-active button:before {
+    color: #122fee;
+}
+/* .slick-next:before {
+    position:relative;
+    left:4px;
+}
+.slick-prev:before {
+    position:relative;
+    left:-20px;
+}
+.slick-slide {
+    margin-right:30px;
+}  */
+
+/* 
+.slick-prev:before {
+    content:url("../rezult/arrow-left.svg");
+
+}
+.slick-next:before {
+    content: url("../rezult/arrow-right.svg")
+}
+.slick-prev {
+    left:-58px;
+} */

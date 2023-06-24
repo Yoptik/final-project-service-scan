@@ -1,0 +1,163 @@
+.autorization {
+    padding:69px 0 0 60px;
+    display:flex;
+    flex-direction: row;
+    height:672px;
+}
+.info {
+    display:flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    width: 808px;
+}
+.characters {
+    Width:321.76px;
+    Height: 342.03px;
+    position: relative;
+    left:130px;
+}
+.form {
+    position: relative;
+}
+.lock {
+    position: absolute;
+    top:-60px;
+    left:-50px;
+}
+.autorizationForm {
+    box-sizing: border-box;
+    width: 429px;
+    height: 523px;
+    padding:25px;
+}
+.tab {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.enter {
+    padding:0 30px;
+    margin-bottom:40px;
+    height:27px;
+    text-align:center;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    border-bottom:1px solid #C7C7C7;
+}
+.activeTab {
+    border-bottom:1px solid #029491;
+    color:#029491;
+}
+.btn__inactive,
+.btn__disabled {
+    width: 379px;
+    height: 59px;
+    left: 895px;
+    top: 460px;
+    margin:30px 0 15px;
+}
+.btn__disabled {  
+    opacity:0.5;
+    cursor:not-allowed;
+}
+.resetPas {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;  
+    color: #5970FF;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.subEnter {
+    font-size: 16px;
+    line-height: 19px;
+    color: #949494; 
+    margin-bottom:15px;
+}
+.partners{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.icon {
+    width: 96px;
+    height: 31px;
+    background: #FFFFFF;
+    border: 1px solid rgba(89, 112, 255, 0.51);
+    border-radius: 3px;
+    margin-right: 10px;
+    display: table-cell;
+    text-align: center;
+}
+.errorBorder {
+    border:1px solid red;  
+}
+.errorMessage {
+    position:absolute;
+
+    left:25%;
+    color:red;
+    font-size:12px;
+    width:90%;
+    
+}
+
+@media screen and (max-width: 375px) {
+    .autorization {
+        padding:31px 0 126px 0;
+        display: flex; 
+        flex-flow: wrap;
+        height:100%;
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 26px;
+        width: 383px;
+        order:0;
+    } 
+    .form {
+        order:1;
+    }
+    .characters {
+        order:2;
+    }
+    .lock {
+        left:130px;
+        top:-80px;
+    }
+    .characters {
+        Width:335px;
+        Height:356.1px;
+        position: relative;
+        left:0;
+        margin-bottom:80px;
+    }
+    .autorizationForm {
+        width: 335px;
+        height: 504px;
+        padding:15px;
+    }
+    input {
+        width: 305px;
+        height: 43px;
+    }
+    .enter,
+    .registration {
+        padding:0 20px; 
+    }
+    .btn__inactive {
+        width: 305px;
+
+    }
+}

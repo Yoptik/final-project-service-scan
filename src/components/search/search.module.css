@@ -1,0 +1,297 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    margin-top: 69px;
+    position: relative;
+
+}
+
+.info {
+    width: 872px;
+
+}
+
+.title {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 25px;
+    width: 615px;
+}
+
+.searchForm {
+    position: relative;
+    box-sizing: border-box;
+    width: 872px;
+    height: 543px;
+    margin-top: 47px;
+    padding: 20px 40px;
+}
+
+.flexboxSearch {
+    display: flex;
+    flex-direction: row;
+}
+
+.blockLeft {
+    width: 380px;
+}
+
+.blockLeft input,
+.blockLeft select {
+    width: 242px;
+    height: 43px;
+    margin-bottom: 30px;
+}
+
+.blockLeft label {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.blockLeft input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+    opacity: 0.4;
+    text-align: center;
+}
+
+.blockLeft .dateInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dateInput input {
+    width: 176px;
+}
+
+.dateInput input::placeholder {
+    color: #949494;
+    opacity: 0.4;
+}
+
+.dateInput input::-webkit-calendar-picker-indicator {
+    color: transparent;
+    opacity: 1;
+    background: url('../search/arrowBottom.png') no-repeat center;
+    background-size: contain;
+}
+
+.blockRight label {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.blockRight .checkbox {
+    display: none;
+}
+
+.blockRight .fake {
+    display: inline-flex;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 9px;
+    align-items: center;
+}
+
+.fake {
+    border: 1px solid #D9D9D9;
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+}
+
+.fake::before {
+    content: url('../search/checkMark.svg');
+    opacity: 0;
+    transition: .2s;
+}
+
+.checkbox:checked+.fake::before {
+    opacity: 1;
+}
+
+.checkboxActive {
+    color: #000000 !important;
+}
+
+.sub {
+    position: absolute;
+    left: 511px;
+    top: 438px;
+}
+
+.signs span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #D9D9D9;
+    text-decoration-line: none;
+    opacity: 1;
+    -moz-text-decoration-line: none;
+}
+
+.btn__inactive,
+.btn__disabled {
+    width: 305px;
+    height: 59px;
+    /* margin-top:134px; */
+    /* position: absolute;
+    left: 490px;
+    top: -74px; */
+}
+
+.btn__disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.comment {
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+    text-align: right;
+    /* position: relative; */
+    top: -61px;
+
+}
+
+
+.imageBlock {
+    position: relative;
+    left: -37px;
+}
+
+.list {
+    position: absolute;
+    top: 47px;
+    left: 42px;
+}
+
+.folder {
+    position: absolute;
+    top: 65px;
+    left: 307px;
+}
+
+.window {
+    position: absolute;
+    top: 233px;
+    left: 103px;
+}
+
+.errorBorder {
+    border: 1px solid red;
+    box-shadow: 0px 0px 20px rgba(255, 89, 89, 0.2);
+}
+
+.errorMessage {
+    position: absolute;
+    top: 113px;
+    color: red;
+    font-size: 12px;
+    width: 90%;
+}
+
+.errorQuan {
+    top: 357px;
+}
+
+.errorStartDate {
+    top: 481px;
+}
+
+.errorEndDate {
+    top: 495px;
+}
+
+@media screen and (max-width: 375px) {
+    .search {
+        flex-direction: column;
+        margin-top: 19px;
+
+    }
+
+    .info {
+        width: 330px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 34px;
+        width: 350px;
+    }
+
+    .searchForm {
+        width: 374px;
+        box-sizing: border-box;
+        height: 688px;
+        padding: 32px 14px;
+        position: relative;
+        left: -14px;
+    }
+
+    .blockLeft input,
+    .blockLeft select {
+        width: 335px;
+    }
+
+    .blockRight {
+        display: none;
+    }
+
+    .blockLeft .dateInput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub .btn__inactive,
+    .sub .btn__disabled {
+        width: 335px;
+        left: 0;
+        top: -10px;
+    }
+
+    .comment {
+        text-align: left;
+        top: -10px;
+    }
+
+    .window {
+        position: relative;
+        top: 0;
+        left: 24px;
+        margin-top: 24px;
+    }
+
+    .list {
+        top: -871px;
+        left: 305px;
+        Width: 58.24px;
+        Height: 71.12px;
+    }
+
+    .folder {
+        display: none;
+    }
+
+    .errorMessage {
+        top: 123px;
+    }
+
+    .imageBlock {
+        left: 0px;
+    }
+
+    .sub {
+        left: 15px;
+        top: 588px;
+    }
+}

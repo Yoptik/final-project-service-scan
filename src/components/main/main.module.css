@@ -1,0 +1,13 @@
+.main {
+    height:100%;
+    padding:51px 60px 118px;
+    overflow: hidden;
+}
+
+@media (max-width: 375px) {
+    .main {
+        width:374px;
+        box-sizing: border-box;
+        padding:20px 14px;  
+    }
+}

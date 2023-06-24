@@ -1,0 +1,171 @@
+.block__rates__title {
+    padding-bottom: 70px;
+}
+
+.rates__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rates__card {
+    width: 415px;
+    height: 540px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    user-select: none;
+}
+
+.card_active {
+    border: 2px solid #FFB64F;
+}
+
+.card__header {
+    background: #FFB64F;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    position: relative;
+    padding: 20px 30px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+}
+
+.card__header__pro {
+    background: #7CE3E1;
+}
+
+.card__header__business {
+    background: #000000;
+    color: #ffff;
+}
+
+.flex__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.card__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.vector {
+    width: 92.24px;
+    height: 83.15px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.card__content {
+    padding: 30px;
+    position: relative;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.text {
+    font-family: "Inter-Medium";
+    padding-bottom: 10px;
+    padding-top: 59px;
+}
+
+.btn__actual {
+    background: #3BA5E0;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 4px 13px;
+    width: 134px;
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    cursor: default;
+}
+
+.checkMark {
+    background-image: url('../rates/check__mark.png');
+    background-position: 0 0;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.btn_active {
+    background: #D2D2D2;
+    color: #000000;
+}
+
+.btnMarginTop {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 375px) {
+    .block__rates {
+        width: 375px;
+    }
+
+    .block__rates__title {
+        padding-bottom: 37px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .rates__cards {
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .rates__card {
+        width: 335px;
+        height: 512px;
+        margin: 0 auto;
+        margin-bottom: 43px;
+    }
+
+    .card__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 22px;
+    }
+
+    .card__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        width: 285px;
+    }
+
+    .vector {
+        width: 59px;
+        height: 53.18px;
+    }
+
+    .text {
+        padding-bottom: 10px;
+        padding-top: 36px;
+    }
+
+    .card__content li {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .btnMarginTop {
+        margin-top: 39px;
+        width: 286.57px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  /* width:1440px; */
+  margin:0 auto;
+}
+.wrapper::-webkit-scrollbar-track {
+  background: orange;        /* цвет зоны отслеживания */
+}
+.wrapper::-webkit-scrollbar-thumb {
+  background-color: blue;    /* цвет бегунка */
+  border-radius: 20px;       /* округлось бегунка */
+  border: 3px solid orange;  /* отступ вокруг бегунка */
+}
+
+
+/* @media screen and (max-width: 375px) {
+  .App {
+    width:375px;
+  }
+} */
